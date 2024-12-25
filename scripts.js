@@ -139,7 +139,7 @@ function resetGame() {
     firstCard = null;
     secondCard = null;
     lockBoard = false;
-    timeLeft = 180; // Reset time to 3 minutes
+    timeLeft = 60; // Reset time to 1 minutes
     timerElement.textContent = timeLeft; // Update timer display
     matchedPairs = 0; // Reset matched pairs count
 
