@@ -17,7 +17,7 @@ const cardValues = ['🍎', '🍊', '🍋', '🍉', '🍇', '🍓', '🍒', '�
 let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
-let timeLeft = 180; // Timer set to 3 minutes (180 seconds)
+let timeLeft = 60; // Timer set to 1 minutes (60 seconds)
 let timer;
 let gameStarted = false;
 let isPaused = false;
